@@ -1,0 +1,47 @@
+.navbar-scrolled {
+  background-color: rgb(13, 13, 13);
+  // box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar{
+  transition: all 0.5s
+}
+
+img{
+  width: 50px;
+  margin-left: 4vh;
+}
+
+.navbar-brand{
+  animation: fade-down 0.5s 0.4s backwards;
+}
+
+  .nav-item {
+    padding: 2px 15px;
+    position: relative;
+    animation: fade-down 0.5s 0.4s backwards;
+  
+  }
+  
+  @keyframes fade-down{
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
+  
+
+  
+//   @keyframes translateX {
+//     from {
+//       transform: translateX(-100%);
+//     }
+//     to {
+//       transform: translateX(0);
+//     }
+//   }
+  
