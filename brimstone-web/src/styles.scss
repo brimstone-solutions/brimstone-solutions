@@ -1,15 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
 html, body { height: 100%; }
 html{ scroll-behavior: smooth;}
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Druk Wide Bold";
   margin: 0;
   background-color: rgb(238, 238, 254);
  }
 
  * {
+  font-family: "Circular Std Book";
     margin: 0;
     padding: 0;
     box-sizing: border-box;

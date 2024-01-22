@@ -30,6 +30,11 @@ app-button-portada{
     margin-bottom: 100px;
 }
 
+.sec2-title{
+    margin-bottom:25px;
+    font-size: 8vh;
+}
+
 video{
     position: absolute;
     top:0;
@@ -61,17 +66,15 @@ video{
     }
 }
 
+//SECCION2
+
 .section2{
     background-color: white ;
     width: 100%;
-    height: 50vh;
-}
-
-.section2{
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
 .section2 h2{
     text-align: center;
     color:rgb(2, 2, 2);
@@ -93,3 +96,35 @@ video{
     width: 70vh;
     margin-bottom: 50px;
 }
+
+//SECCION3
+
+.section3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.sec3-title{
+    margin-bottom:25px;
+    font-size: 8vh;
+    margin-right: 40vh;
+}
+.text-sec3{
+    display: flex;
+    margin-left: 20vh;
+
+    text-align: right;
+    font-size: 3vh;
+}
+
+.text-sec3 p{
+    width: 70%;
+}
+
+.img-sec3 img{
+    width: 50vh;
+    margin-left: 8%;
+    margin-right: 25px;
+}
+ 
