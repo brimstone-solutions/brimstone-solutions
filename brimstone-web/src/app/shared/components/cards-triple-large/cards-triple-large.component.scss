@@ -1,22 +1,33 @@
 .container{
-    margin-top: 10vh;
+
     width: 100%;
     display: flex;
     justify-content: center;
 
     height: 100%;
-    max-height: 40vh;
+    max-height: 100vh;
 }
 
 .card-container{
     text-align: center;
     width: 35vh;
     height: 80%;
-    border-bottom: 10px solid lightblue ;
     margin: auto;
-    box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
--webkit-box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
--moz-box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
+    box-shadow: 1px 1px 29px 0px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 1px 1px 29px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 1px 1px 29px 0px rgba(0,0,0,0.51);
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+}
+
+.text{
+    margin: 3vh 3vh 3vh 3vh;
+}
+
+.text h5{
+    font-size: 18px;
+    text-align: left;
 }
 
 .img img{
@@ -25,6 +36,7 @@
 }
 
 .titulo h3{
+    font-size: 5vh;
     margin-top: 3vh;
 }
 

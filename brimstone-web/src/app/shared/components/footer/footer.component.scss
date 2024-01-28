@@ -1,0 +1,28 @@
+.container{
+    height: 30vh;
+    max-width: 100%;
+    background-color: rgb(13, 13, 13);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.logo{
+
+    filter: opacity(40%);
+}
+.logo img{
+    margin-top: 8vh;
+    width: 10vh;
+}
+
+
+
+a{
+    text-align: center;
+    margin:0 10px;
+    color: white;
+    filter: opacity(40%);
+    cursor: pointer;
+    text-decoration: none;
+}

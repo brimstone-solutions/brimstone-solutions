@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    height: 70vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    width: 50%;
+    h2{
+        font-size: 32px;
+        margin-bottom: 2vh;
+    }
+    li{
+        font-size:24px
+    }
+}
+
+.text {
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 50%;
+}
+
+.image{
+    margin-top:2vh;
+    width: 60%;
+    text-align: center;
+    justify-self: center;
+}
+.text li {
+    font-size: 20px; /* Usar vw (viewport width) para el tamaño de fuente relativo al ancho de la pantalla */
+    margin-bottom:3px; /* Ajustar el margen inferior según sea necesario */
+}
+
+.image img{
+    width: 70%;
+}
+.box{
+    display: flex;
+    height: 60vh;
+    margin-top: 10%;
+    box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
+    -moz-box-shadow: 1px 9px 6px -2px rgba(0,0,0,0.45);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1200px){
+    .text li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .box {
+        flex-direction: column;
+        max-height: none;  
+        height: auto; 
+    }
+
+    .text {
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;  /* Puedes ajustar este valor según sea necesario */
+    }
+
+    .text, .image {
+        width: 90%;
+        max-width: none;
+    }
+
+    .image {
+        text-align: center; 
+    }
+
+    .image img {
+        width: 50%; 
+        height: auto;  
+        margin-left: 2vh;
+    }
+}

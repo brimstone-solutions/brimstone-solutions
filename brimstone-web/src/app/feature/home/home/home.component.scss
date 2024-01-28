@@ -71,7 +71,7 @@ video{
 
 .section2{
     background-color: white ;
-    width: 100%;
+    width: 80%;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ video{
 
 .section3{
     background-color: white ;
-    width: 100%;
+    width: 80%;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -184,4 +184,11 @@ video{
         width: 100%;
         max-width: none; /* Elimina el límite máximo para dispositivos móviles */
     }
+}
+
+.contactanos{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
