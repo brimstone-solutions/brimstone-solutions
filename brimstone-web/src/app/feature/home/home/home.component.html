@@ -1,7 +1,7 @@
 <main id="portada">
     <div class="titulo">
         <h1>Una experiencia única con nosotros</h1>
-        <app-button-portada text="Conocé Mas" ref="#section2"></app-button-portada>
+        <app-button-portada text="Conocé Mas" ref="#box"></app-button-portada>
 
     </div>
 
@@ -10,6 +10,9 @@
     </video>
     <div class="capa"></div>
 </main>
+<div class="flecha">
+    <a href="#section2"><img src="../../../../assets/images/flecha-abajo.png" alt=""></a>
+</div>
 
 <!-- SECCION DOS -->
 <div id="section2" class="text-sec2">
@@ -35,12 +38,14 @@
 
 <app-cards-triple></app-cards-triple>
 
-<app-box-grande></app-box-grande>
+<app-box-grande id="box"></app-box-grande>
 
 <app-cards-triple-large></app-cards-triple-large>
 
 <div class="contactanos">
     <h2>¿Quieres saber mas?</h2>
-
+    <div class="boton">
+        <button class="btn btn-dark">Contacto</button>
+    </div>
 
 </div>

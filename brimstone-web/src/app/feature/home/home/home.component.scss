@@ -5,7 +5,7 @@ body{
 #portada{
     min-height: 80vh;
     position: relative;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 app-button-portada{
     margin-top:5%;
@@ -68,6 +68,9 @@ video{
     font-size: 8vh;
 }
 
+#section2{
+    padding-top:80px ;
+}
 
 .section2{
     background-color: white ;
@@ -191,4 +194,24 @@ video{
     justify-content: center;
     text-align: center;
     align-items: center;
+    
+    height: 30vh;
+}
+
+.contactanos h2{
+    font-size:42px;
+}
+
+.boton{
+    margin-top:5vh;
+}
+
+.flecha{
+    width: 100%;
+    text-align: center;
+}
+
+.flecha img{
+    width: 2%;
+    margin-bottom: 10vh;
 }
